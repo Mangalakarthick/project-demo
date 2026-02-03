@@ -13,4 +13,8 @@ public class OrderService {
     public String getOrder(Long id) {
         return "Order details for id: " + id;
     }
+
+    public String getAllOrders() {
+        return "All orders retrieved";
+    }
 }
